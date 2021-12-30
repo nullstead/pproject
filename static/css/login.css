@@ -1,0 +1,57 @@
+#parent-form-div{
+    padding-top: 220px;
+}
+
+#form-div {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    /*border: 2px solid black;*/
+
+}
+
+input {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 0 10px #666;
+    width: 240px;
+    height: 30px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+
+}
+
+span.is-invalid {
+    color:red;
+    margin: 0;
+    padding: 0; 
+    font-size: small;
+}
+
+
+button {
+    width: 240px;
+    height: 60px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: rgb(168, 161, 161);
+    color: black;
+    font-size: 17px;
+    padding: 15px 15px;
+
+}
+
+@media only screen and (max-width: 576px){
+    footer {
+        font-size: 13px;
+    }
+}

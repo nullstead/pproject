@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+nav ul li {
+    padding: 10px;
+    
+}
+
+nav ul li a{
+    font-size:large;
+    
+}
+
+
+#logo {
+    font-weight: bolder;
+    font-size:xx-large;
+    color: azure;
+}
+
+nav span {
+    color: red;
+}
+
+@media only screen and (min-width: 576px) {
+    
+    .my-nav ul  {
+        
+        position: absolute;
+        right: 0px
+    }
+}
+
+
+
+
+
+
+
+.main {
+   /* margin-top: 73px; */
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    
+}
+
+.info-image {
+   margin: auto;
+}
+
+.info-div {
+    border-radius: 5px;
+    box-shadow: 2px 9px 9px 1px rgb(150, 145, 139);
+    width: 25%;
+    margin: auto;
+}
+
+
+.info-info {
+    overflow: scroll;
+}
+
+.info-info a {
+    text-decoration: none;
+    color: bisque;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.info-info a:hover {
+    background-color: whitesmoke;
+    color: darkblue;
+}
+
+/*insert form*/
+
+
+
+
+
+/*footer*/
+footer {
+   /* position: fixed;
+    bottom:0; */
+    text-align: center;
+    background-color: rgb(168, 161, 161);
+    color: black;
+    font-size: 17px;
+    padding: 15px 15px;
+
+}
+
+@media only screen and (max-width: 576px){
+    footer {
+        font-size: 13px;
+    }
+}

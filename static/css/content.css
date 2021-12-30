@@ -1,0 +1,55 @@
+.content_container {
+	position: absolute;
+	top: 40%;
+	left: 5%;
+	z-index: 10;
+	color: white;
+	text-transform: uppercase;
+}
+.content_container .title_1 {
+	font-size: 10rem;
+	font-family: 'Mohave', sans-serif;
+	margin-bottom: -3rem;
+}
+
+.content_container .title_2 {
+	font-size: 4rem;
+	font-family: var(--lato-font-family);
+	font-style: italic;
+	color: #ececec;
+	margin-bottom: 3rem;
+}
+
+.content_container .title_3 {
+	font-size: 2rem;
+	font-family: var(--lato-font-family);
+	opacity: 0.8;
+}
+
+.dive_button {
+	background: var(--primary-red);
+	color: white;
+	padding: 1rem;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.1s;
+	border: none;
+	margin: 2rem 0;
+	text-transform: capitalize;
+}
+
+.dive_button a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.dive_button:focus {
+	outline: none;
+}
+
+.dive_button:active {
+	transform: translate(0, 10px);
+}
+

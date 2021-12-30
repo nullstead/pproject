@@ -1,0 +1,179 @@
+/*
+*ADMIN DASHBOARD CSS
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li {
+    padding: 10px;
+    
+}
+
+nav ul li a{
+    font-size:large;
+    
+}
+
+
+#logo {
+    font-weight: bolder;
+    font-size:xx-large;
+    color: rgb(37, 78, 78);
+}
+
+nav span {
+    color: red;
+}
+
+@media only screen and (min-width: 576px) {
+    
+    .my-nav ul  {
+        
+        position: absolute;
+        right: 0px
+    }
+}
+
+
+/*main body*/
+.main {
+    background-color: rgb(255, 255, 255);
+   /* margin-top: 73px; */
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.head-3 {
+    width: auto;
+}
+
+.header h3 {
+    box-shadow: 5px 5px 5px 5px rgb(223, 222, 216);
+}
+
+
+
+.wrapper {
+    padding: 5% 10% 5% 10%;
+}
+
+.img-div {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+ img {
+    max-width: 100%;
+   
+}
+
+.line {
+    text-align: center;
+}
+
+.center {
+    
+    position: relative;
+    height: 100%;
+   
+}
+
+.centered {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translateY(-50%);
+    
+  }
+
+  .centered1 {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translateY(-50%);
+    
+  }
+
+  #delete {
+      text-decoration: none;
+      color: red;
+      background-color: black;
+      padding: 5px;
+      border-radius: 3px;
+  }
+
+
+
+
+  .info-image {
+    margin: auto;
+ }
+ 
+ .info-div {
+     text-align: center;
+     border-radius: 5px;
+     box-shadow: 2px 9px 9px 1px rgb(150, 145, 139);
+     width: 25%;
+     margin: auto;
+ }
+ 
+ 
+ .info-info {
+     overflow: scroll;
+ }
+ 
+ .info-info a {
+     text-decoration: none;
+     color: bisque;
+     background-color: black;
+     border-radius: 5px;
+     padding: 5px;
+ }
+ 
+ .info-info a:hover {
+     background-color: whitesmoke;
+     color: darkblue;
+ }
+
+/*footer*/
+footer {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 17px;
+    padding: 15px 15px;
+    box-shadow: 13px 13px 13px 13px gainsboro;
+
+}
+
+@media only screen and (max-width: 576px){
+    footer {
+        font-size: 13px;
+    }
+}
+
+
+
+.v-info-link a{
+    text-decoration: none;
+    color: crimson;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: honeydew;
+}
+
+.v-info-link a:hover{
+    color: honeydew;
+    font-size: larger;
+    background-color: crimson;
+}

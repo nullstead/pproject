@@ -1,0 +1,15 @@
+
+
+.header {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.head-3 {
+    width: auto;
+}
+
+.header h3 {
+    box-shadow: 5px 5px 5px 5px rgb(223, 222, 216);
+}
